@@ -10,7 +10,7 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Senya | Itachi's theme [KSM Remix]", filePath: "songs/1.mp3", coverPath: "1.jpg"},
+    {songName: "Senya | Itachi's theme [KSM Remix]", filePath: "songs/1.mp3", coverPath: "Cover/1.jpg"},
     {songName: "Naruto Main Theme", filePath: "songs/2.mp3", coverPath: "Cover/2.jpg"},
     {songName: "Akatsuki Ritual", filePath: "songs/3.mp3", coverPath: "Cover/3.jpg"},
     {songName: "Naruto Blue Bird", filePath: "songs/4.mp3", coverPath: "Cover/4.jpg"},
