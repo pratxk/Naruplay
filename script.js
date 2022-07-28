@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Senya | Itachi's theme [KSM Remix]", filePath: "songs/1.mp3", coverPath: "Covers/1.jpg"},
-    {songName: "Naruto Main Theme", filePath: "songs/2.mp3", coverPath: "Covers/2.jpg"},
-    {songName: "Akatsuki Ritual", filePath: "songs/3.mp3", coverPath: "Covers/3.jpg"},
-    {songName: "Naruto Blue Bird", filePath: "songs/4.mp3", coverPath: "Covers/4.jpg"},
-    {songName: "ALL MIGHTY PUSHH!!! - PAIN", filePath: "songs/5.mp3", coverPath: "Covers/5.jpg"},
-    {songName: "Naruto Main Dj Remix", filePath: "songs/6.mp3", coverPath: "Covers/6.jpg"},
-    {songName: "Loneliness-Remix", filePath: "songs/7.mp3", coverPath: "Covers/7.jpg"},
-    {songName: "MADARA-Power of a GOD", filePath: "songs/8.mp3", coverPath: "Covers/8.jpg"},
-    {songName: "Kana-Boon Naruto Remix", filePath: "songs/9.mp3", coverPath: "Covers/9.jpg"},
-    {songName: "UCHIHA!!-(Small Edit)Plaine Jane", filePath: "songs/10.mp3", coverPath: "Covers/10.jpg"},
+    {songName: "Senya | Itachi's theme [KSM Remix]", filePath: "songs/1.mp3", coverPath: "Cover/1.jpg"},
+    {songName: "Naruto Main Theme", filePath: "songs/2.mp3", coverPath: "Cover/2.jpg"},
+    {songName: "Akatsuki Ritual", filePath: "songs/3.mp3", coverPath: "Cover/3.jpg"},
+    {songName: "Naruto Blue Bird", filePath: "songs/4.mp3", coverPath: "Cover/4.jpg"},
+    {songName: "ALL MIGHTY PUSHH!!! - PAIN", filePath: "songs/5.mp3", coverPath: "Cover/5.jpg"},
+    {songName: "Naruto Main Dj Remix", filePath: "songs/6.mp3", coverPath: "Cover/6.jpg"},
+    {songName: "Loneliness-Remix", filePath: "songs/7.mp3", coverPath: "Cover/7.jpg"},
+    {songName: "MADARA-Power of a GOD", filePath: "songs/8.mp3", coverPath: "Cover/8.jpg"},
+    {songName: "Kana-Boon Naruto Remix", filePath: "songs/9.mp3", coverPath: "Cover/9.jpg"},
+    {songName: "UCHIHA!!-(Small Edit)Plaine Jane", filePath: "songs/10.mp3", coverPath: "Cover/10.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
